@@ -1,0 +1,27 @@
+{
+    "name": "carvago/barion-bundle",
+    "description": "Bundle for Barion paygate API.",
+    "keywords": ["carvago", "barion", "paygate", "symfony", "bundle", "api"],
+    "type": "symfony-bundle",
+    "require": {
+        "php": "^7.2",
+        "consistence/consistence": "^2.0",
+        "guzzlehttp/guzzle": "^6.5",
+        "jms/serializer": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carvago\\BarionBundle\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zdeněk Novotný",
+            "email": "scatter@scatter.cz"
+        }
+    ]
+}
